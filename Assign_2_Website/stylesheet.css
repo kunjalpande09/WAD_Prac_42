@@ -1,0 +1,204 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* font-size: 1rem; */
+    transition: all 1.5s;
+    scroll-behavior: smooth;
+    margin: 0px;
+   
+}
+h1 i{
+    font-size: 2.5rem;
+}
+h2{
+    font-size: 1.5rem;
+}
+p{
+    font-size: 1.9rem;
+}
+
+/* Navigation */
+#navbar {
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    /* background-color: rgba(0, 0, 0, 0.648); */
+    color: white; 
+    border-radius: 50pc;
+    width: 100%;
+    position:fixed;
+}
+#navbar div{
+    display: flex;
+}
+#navbar div img{
+    border-radius: 200pc;
+    height: 5rem;
+    width: 5rem;
+}
+#navbar div a{
+    margin: 2rem;
+    /* overflow: hidden; */
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding: 4px;
+    border-radius: 20px;
+    color: white;
+}
+#navbar a:hover{
+    background-color: rgba(23, 23, 23, 0.827);
+    cursor: pointer;
+}
+
+/* Home section */
+#home{
+    
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+#home h1{
+    
+    color: white;
+    font-size: 3rem;
+    margin-top: 10rem;
+    margin-bottom: 10px;
+    /* color: white; */
+    text-shadow: 5px 0px rgb(79, 74, 74);
+}
+#home h1:hover{
+    text-shadow: 5px 0px rgb(35, 35, 35);
+}
+#home p{
+    
+    border: 2px solid black;
+    font-size: 1.9rem;
+    margin: 2rem ;
+    margin-top: 0px;
+    border-radius: 3rem;
+    /* width: 50rem; */
+    color: white;
+    background-color: rgba(0, 0, 0, 0.911);
+    float: right;
+}
+#home p:hover{
+    color: rgb(206, 203, 203);
+    background-color: black;
+
+}
+#home::before{ 
+    content: "";
+    position:absolute;
+    background: url('Images/bg3.jpeg') no-repeat center center/cover;
+    height: 625px;
+    top:0px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+     /* opacity: .7;  */
+}
+
+/* Services Section */
+    #services #ser{
+        /* margin-top: 15rem; */
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+        text-align: center;
+        color: white;
+        text-shadow: 1px 0rem red;
+        font-size: 2rem;
+        
+    }
+    #services{
+        background-color: rgba(0, 0, 0, 0.876);
+    }
+    .ser2{
+        margin-top: 3rem;
+    }
+     #ser1{ 
+        margin-top: 15rem;
+    } 
+    #Services{
+        display: flex;
+        height: 450px;
+    }
+    #Services p {
+        font-size: 1rem;
+    }
+    #Services div img{
+        display: block;
+        margin: auto;
+        width: 150px;
+        height: 150px;
+    }
+    #Services div{
+        background-color: rgb(186, 182, 182);
+        color: black;
+        border-radius: 25px;
+        box-shadow: 8px 8px white;
+        width: 400px;
+        height: 300px;
+       margin-left: 2rem;
+    }
+    #Services div p{
+        text-align: center;
+        padding: 1rem;
+    }
+    #Services1 h2{
+        text-align: center;
+        text-shadow: 1px 0rem red;
+        font-size: 2rem;
+    }
+    #Services div:hover{
+        transform: scale(1.1);
+        box-shadow: 0px 0px 0px 0px white;
+       
+    
+    }
+
+    /* contact-us */
+    #ContactUs::before{
+        content: "";
+    position: absolute;
+    background: url('Images/contact2.jpg') no-repeat center center/cover;  
+    height: 625px;
+    width: 100%;
+    z-index: -1;
+    /* opacity:5.2; */
+}
+#ContactUs div{
+    padding: 1rem;
+    margin-left: 0.4rem;
+    float: left;
+}
+#ContactUs div p{
+    
+    font-size: 1.56rem;
+    color: white;
+    text-align: center;
+    margin-top:3rem ;
+    font-size: 2rem;
+}
+#ContactUs div p i{
+    font-size: 1.56rem;
+}
+#ContactUs div p{
+    font-size: 1.56rem;
+}
+#ContactUs div p a{
+    font-size: 1.56rem;
+    color: white;
+    margin-top:2rem ;
+}
+#ContactUs .contact h1{
+    color: white;
+    text-align: center;
+    /* text-shadow: 1px 0rem red; */
+    font-size: 2rem;
+    margin-top: 6rem;
+
+}
+
