@@ -1,0 +1,20 @@
+Web Application Development
+
+Assignment 1: Motor Website
+
+Assignment 2: Two Pages in which from first page the registration is 
+              pushed or saved in second page
+
+Assignment 3: Create Account on GitHub and using Git Commands create repository
+
+Assignment 4: Docker Container Environment Theory
+
+Assignment 5: Angular Application (Register, login, home page)
+
+Assignment 6: Node.js application static website
+
+Assignment 7: API (Web technology)
+
+Assignment 8: Mobile Website (jquery): Cake Shop
+
+Assignment 9: Host web application theory 
